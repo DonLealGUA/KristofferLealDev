@@ -13,7 +13,7 @@ export const BackgroundGradient = ({ children, className, containerClassName, an
   };
 
   return (
-    <div className={cn("relative p-[2px] group w-1040px", containerClassName)}> {/* Adjusted width here */}
+    <div className={cn("relative p-[2px] group w-1040px", containerClassName)}> 
       {/* Border Layer */}
       <motion.div
         variants={animate ? variants : undefined}
