@@ -1,34 +1,55 @@
 .Aboutme {
-    height: 100vh; /* Full viewport height */
-    padding: 0; /* Remove padding to start at the top */
+    height: 100vh;
+    padding: 0;
     padding-top: 3%;
-  }
-  
-  img {
-    border-radius: 50%; /* Makes the image round */
-  }
+    overflow-y: auto;
+    padding-bottom: 10%;
+}
 
-  #topP{
-    padding-top: 10%;
-  }
+::-webkit-scrollbar {
+    width: 10px;
+}
 
-  .gradient-text {
+::-webkit-scrollbar-track {
+    background: #000000; /* Changed to white */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.Aboutme {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #000000; 
+}
+
+img {
+    border-radius: 50%;
+}
+
+#topP {
+    padding-top: 5%;
+}
+
+.gradient-text {
     background: linear-gradient(to right, #a855f7, #342061, #ec4899);
-    background-clip: text; /* Standard property */
-    -webkit-background-clip: text; /* Safari */
-    -moz-background-clip: text; /* Firefox (might require additional adjustments) */
-    -webkit-text-fill-color: transparent; /* Make the text color transparent for WebKit browsers */
-    color: transparent; /* Fallback for browsers that don't support background-clip */
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
 .social-icon {
-    position: relative; /* Ensure it's positioned */
-    z-index: 10; /* Set a high z-index to be on top */
+    position: relative;
+    z-index: 10;
 }
 
 .background-beams {
-    pointer-events: none; /* This will allow clicks to go through */
+    pointer-events: none;
 }
-
-
-  

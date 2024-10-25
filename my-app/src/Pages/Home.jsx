@@ -1,7 +1,6 @@
 // src/Pages/Home.js
 import React from 'react';
 import './CSSFiles/Home.css';
-import { BackgroundBeamsWithCollisionDemo } from '../componentes/ui/AceternityUI/background-beams-with-collisionComponent';
 import { BackgroundBeamsWithCollision} from '../componentes/ui/AceternityUI/background-beams-with-collision';
 import { TextGenerateEffect } from "../componentes/ui/AceternityUI/text-generate-effect";
 
