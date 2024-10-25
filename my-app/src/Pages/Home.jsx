@@ -16,7 +16,7 @@ function Home() {
 
         {/* Right Side (Image) */}
         <div className="right-content">
-          <img src="/Content/IMG_0843.jpg" alt="Descriptive Alt Text" />
+          <img src="/assets/IMG_0843.jpg" alt="Descriptive Alt Text" />
         </div>
       </div>
     </div>
