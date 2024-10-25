@@ -1,15 +1,36 @@
 // src/App.js
-import React from 'react';
-import Home from './Pages/Home'; // Ensure this path is correct
-import Header from './componentes/Header'; // Ensure this path is correct
+import React, { useState } from 'react';
+import Home from './Pages/Home'; 
+import Aboutme from './Pages/AboutMe'; 
+import Navbar from './componentes/Navbar'; 
 import "./App.css";
 
 function App() {
+
+  const [currentPage, setCurrentPage] = useState('about'); 
+
+  const renderComponent = () => {
+    switch (currentPage) {
+      case 'home':
+        return <Home/>;
+      case 'about':
+        return <Aboutme/>;
+      case 'resume':
+        return <Resume />;
+      case 'portfolio':
+        return <Portfolio />;
+      case 'contact':
+        return <Contact />;
+      default:
+        return <Home />;
+    }
+  };
+  
   return (
     <div className="home">
-      <Header/>
-      <div>
-      <Home />
+      <Navbar setCurrentPage={setCurrentPage} />
+      <div className="content">
+        {renderComponent()}
       </div>
     </div>
   );
