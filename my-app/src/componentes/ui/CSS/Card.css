@@ -1,0 +1,17 @@
+.Card {
+    background-color: black; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    padding: 16px; 
+    width: calc(16.66% - 20px); 
+    margin-bottom: 3.5%; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+    width: 60%;
+  }
+  
+.ButtonContainer {
+  display: flex;
+  justify-content: flex-end; 
+  margin-top: auto; 
+}
+  
