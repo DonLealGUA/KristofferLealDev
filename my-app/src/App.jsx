@@ -10,7 +10,7 @@ import "./App.css";
 
 function App() {
 
-  const [currentPage, setCurrentPage] = useState('resume'); 
+  const [currentPage, setCurrentPage] = useState('contact'); 
 
   const renderComponent = () => {
     switch (currentPage) {
