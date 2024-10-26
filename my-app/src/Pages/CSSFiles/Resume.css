@@ -1,0 +1,83 @@
+
+.resume-container{
+    height: 100vh;
+    padding: 0;
+    padding-top: 10%;
+    overflow-y: auto;
+    padding-bottom: 10%;
+}
+
+.resume-content-container {
+    display: flex; 
+    max-width: 100%; 
+}
+
+.resume-left-content {
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100%; 
+    flex-direction: column; 
+    max-width: 45%; 
+    margin-left: 20px; 
+    margin-top: 20px; 
+}
+
+.leftimage {
+    max-width: 45%; 
+    border-radius: 8px;
+    max-height: 80%; 
+    margin-bottom: 30px; 
+    z-index: 3;
+}
+
+.ButtonContainer {
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px; 
+}
+
+.icon {
+    font-size: 1.5rem; 
+    color: white; 
+}
+
+.ResumeInfoDisplay {
+    background-color: black;
+    width: 80%; 
+    height: auto; 
+    min-height: 200px; 
+    padding: 16px;
+    border: 2px solid white; 
+    border-radius: 8px;
+    margin-top: -50px; 
+    margin-bottom: 20px; /* Added margin-bottom for spacing */
+    z-index: 2;
+}
+
+.ResumeInfoDisplay h1, h2 {
+    text-align: center;
+}
+
+.ResumeInfoDisplay h2 {
+    margin-bottom: 12px;
+}
+
+/* Modal Styles (optional for better visual separation) */
+.modal-background {
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.modal-content {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.resume-right-content {
+    flex-grow: 1; 
+    margin-left: 20px; 
+    padding: 20px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
