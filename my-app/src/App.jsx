@@ -9,15 +9,14 @@ import Navbar from './componentes/Navbar';
 import "./App.css";
 
 function App() {
-
   const [currentPage, setCurrentPage] = useState('contact'); 
 
   const renderComponent = () => {
     switch (currentPage) {
       case 'home':
-        return <Home/>;
+        return <Home />;
       case 'about':
-        return <Aboutme/>;
+        return <Aboutme />;
       case 'resume':
         return <Resume />;
       case 'portfolio':
@@ -39,4 +38,4 @@ function App() {
   );
 }
 
-export default App; 
+export default App;

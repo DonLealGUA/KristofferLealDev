@@ -41,14 +41,14 @@ html, body {
 .Content {
     width: 70%; 
     padding: 20px;
-    padding-top: 3%; /* Keep this if you want some top padding */
+    padding-top: 3%; 
 }
 
 .Header {
-    display: flex; /* Use flexbox for alignment */
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically if necessary */
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
     margin-bottom: 4%;
     padding: 20px;
 }
