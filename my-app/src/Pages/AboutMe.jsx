@@ -1,7 +1,7 @@
 import React from 'react';
 import './CSSFiles/About.css';
 import { BackgroundBeams } from '../componentes/ui/AceternityUI/background-beams';
-import { FaGithub, FaLinkedin } from 'react-icons/fa'; // Import icons
+import { FaGithub, FaLinkedin } from 'react-icons/fa'; 
 
 function Aboutme() {
   return (
@@ -9,7 +9,7 @@ function Aboutme() {
       <div className="flex items-center w-full"> {/* Align headings and image/icons horizontally */}
         {/* Left Content (Header Section) */}
         <div className="flex flex-col items-start ml-[20%]"> {/* Align items in a column with left margin */}
-          <h1 className="text-4xl font-bold text-center"> {/* Heading */}
+          <h1 className="text-4xl text-white font-bold text-center"> {/* Heading */}
             Hello! I’m <span className="gradient-text">Kristoffer Leal</span>, and I’m a
           </h1>
           <h2 className="text-4xl font-bold text-center mt-2"> {/* Subtitle */}

@@ -2,12 +2,15 @@
 import React, { useState } from 'react';
 import Home from './Pages/Home'; 
 import Aboutme from './Pages/AboutMe'; 
+import Resume from './Pages/Resume';
+import Portfolio from './Pages/Portfolio';
+import Contact from './Pages/Contact';
 import Navbar from './componentes/Navbar'; 
 import "./App.css";
 
 function App() {
 
-  const [currentPage, setCurrentPage] = useState('about'); 
+  const [currentPage, setCurrentPage] = useState('portfolio'); 
 
   const renderComponent = () => {
     switch (currentPage) {
@@ -36,4 +39,4 @@ function App() {
   );
 }
 
-export default App; // Corrected from exporting Home to exporting App
+export default App; 
