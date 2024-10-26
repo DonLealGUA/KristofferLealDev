@@ -7,7 +7,7 @@ import { HoverBorderGradient } from './ui/AceternityUI/hover-border-gradient';
 const Card = ({ title, description, link }) => {
   return (
     <div className="Card">
-      <h2 className="CardTitle bold-text text-xl">{title}</h2>
+      <h2 className="CardTitle bold-text text-xl mb-3">{title}</h2>
       <p className="CardDescription">{description}</p>
       <div className="ButtonContainer">
         <HoverBorderGradient
