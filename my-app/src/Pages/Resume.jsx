@@ -25,7 +25,7 @@ const Resume = () => {
       <div className="resume-content-container">
         {/* Left Side */}
         <div className="resume-left-content">
-          <img className="leftimage" src="/assets/IMG_0843.jpg" alt="Descriptive Alt Text" />
+          <img className="leftimage" src="/assets/ab742d7f-e174-462e-bab0-3522a467a20c.jpg" alt="Descriptive Alt Text" />
           
           {/* Button Container */}
           <div className="ButtonContainer">

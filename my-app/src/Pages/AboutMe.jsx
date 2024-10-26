@@ -20,7 +20,7 @@ function Aboutme() {
         {/* Right Content (Profile Image and Icons Section) */}
         <div className="flex flex-col items-center ml-[9%] mr-[20%] relative"> {/* Add relative positioning */}
           <img 
-            src="/assets/IMG_0843.jpg" 
+            src="/assets/1679746517761.jpg" 
             alt="Kristoffer Leal" 
             className="w-32 h-32 rounded-full mb-2" // Adjusted size
           />

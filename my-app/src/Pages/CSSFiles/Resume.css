@@ -19,12 +19,13 @@
     height: 100%; 
     flex-direction: column; 
     max-width: 45%; 
-    margin-left: 20px; 
+    margin-left: 10%; 
+    margin-right: 10%; 
     margin-top: 20px; 
 }
 
 .leftimage {
-    max-width: 45%; 
+    max-width: 90%; 
     border-radius: 8px;
     max-height: 80%; 
     margin-bottom: 30px; 

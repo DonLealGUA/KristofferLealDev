@@ -8,6 +8,10 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
     width: 60%;
   }
+
+  .CardTitle{
+    text-align: start;
+  }
   
 .ButtonContainer {
   display: flex;
