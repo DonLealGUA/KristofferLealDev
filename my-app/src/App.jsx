@@ -9,7 +9,7 @@ import Navbar from './componentes/Navbar';
 import "./App.css";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('resume'); 
+  const [currentPage, setCurrentPage] = useState('portfolio'); 
 
   const renderComponent = () => {
     switch (currentPage) {
@@ -30,7 +30,7 @@ function App() {
   
   return (
     <div className="home">
-      <Navbar setCurrentPage={setCurrentPage} />
+      <Navbar setCurrentPage={setCurrentPage} currentPage={currentPage} />
       <div className="content">
         {renderComponent()}
       </div>
