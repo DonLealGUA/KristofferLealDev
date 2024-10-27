@@ -100,3 +100,80 @@ button:hover {
   pointer-events: none;
   background: linear-gradient(90deg, rgba(115, 88, 214, 0.2), rgba(0, 0, 0, 0.2));
 }
+
+/* Responsive Styles */
+
+@media (max-width: 1025px) {
+  .content-container {
+    flex-direction: row; /* Keep items side by side */
+  }
+
+  .left-content {
+    margin-left: 20%; /* 20% margin from left */
+  }
+
+  .right-content {
+    margin-right: 20%; /* 20% margin from right */
+  }
+}
+
+@media (max-width: 1450px) {
+  .left-content h1 {
+    font-size: 4rem;
+    margin-bottom: 4%;
+  }
+
+  .left-content h3 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .content-container {
+    flex-direction: column; /* Stack vertically */
+  }
+
+  .left-content {
+    text-align: center; /* Center text */
+    max-width: 100%; /* Full width */
+    margin-left: 0; /* Reset margin */
+  }
+
+  .right-content {
+    margin-right: 0; /* Reset margin */
+    align-items: center; /* Center image */
+  }
+
+  .right-content img {
+    max-width: 80%; /* Image takes most of the width */
+    margin-top: 20px; /* Space above image */
+  }
+}
+
+/* Additional responsive adjustments */
+@media (max-width: 768px) {
+  .left-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+  }
+
+  .left-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 4%;
+  }
+
+  .left-content p {
+    font-size: 1rem;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+
+  button {
+    font-size: 0.875rem;
+    width: 100%;
+  }
+}
