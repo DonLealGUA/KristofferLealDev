@@ -13,7 +13,7 @@ function Aboutme() {
             Hello! I’m <span className="gradient-text">Kristoffer Leal</span>, and I’m a
           </h1>
           <h2 className="text-4xl font-bold text-center mt-2"> 
-            a Swedish-Guatemalan software developer.
+            a Software Developer.
           </h2>
         </div>
 
@@ -50,7 +50,7 @@ function Aboutme() {
           I have experience with various programming languages and frameworks, including Java, C#, .NET, HTML, CSS, JavaScript, and frameworks like React and Svelte. Additionally, I have a keen interest in artificial intelligence and the Internet of Things.
         </p>
         <p className="text-2xl mb-5 leading-relaxed">
-          Outside of work and study, my hobbies include bartending, fragrance collecting, fashion, and building LEGO sets. I also enjoy traveling and walking in nature.
+          Outside of work and study, my hobbies include bartending, watching football, collecting fragrances, and building LEGO sets. I also enjoy traveling and walking in nature.
         </p>
         <p className="text-2xl leading-relaxed mb-5">
           If you are interested in AI, you can read my Bachelor’s paper &nbsp;
