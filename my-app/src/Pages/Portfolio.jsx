@@ -2,7 +2,7 @@
 "use client";
 import React from "react";
 import "./CSSFiles/Portfolio.css";
-import Card from "../componentes/Card";
+import Card from "../componentes/ProjectCard";
 import { TypewriterEffectSmooth } from "../componentes/ui/AceternityUI/typewriter-effect";
 import { BackgroundBeams } from '../componentes/ui/AceternityUI/background-beams';
 
