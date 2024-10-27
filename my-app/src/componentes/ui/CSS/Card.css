@@ -16,13 +16,12 @@
 }
 
 .CardImage {
-  width: 100%; /* Ensure it takes full width */
-  height: auto; /* Maintain aspect ratio */
-  max-height: 140px; /* Limit the height */
-  border-radius: 8px 8px 0 0; /* Only round top corners */
-  margin-bottom: 16px; /* Keep the margin */
+  width: 100%; 
+  height: auto; 
+  max-height: 140px; 
+  border-radius: 8px 8px 0 0; 
+  margin-bottom: 16px; 
 }
-
 
 .CardTitle {
   text-align: start;
