@@ -9,7 +9,7 @@ import Navbar from './componentes/Navbar';
 import "./App.css";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('portfolio'); 
+  const [currentPage, setCurrentPage] = useState('home'); 
 
   const renderComponent = () => {
     switch (currentPage) {
