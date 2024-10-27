@@ -5,32 +5,72 @@
   border: 1px solid #ddd; 
   border-radius: 8px; 
   padding: 16px; 
-  width: calc(16.66% - 20px); /* Keep this for the grid */
+  width: calc(16.66% - 20px); 
   margin-bottom: 3.5%; 
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
   display: flex; 
   flex-direction: column; 
   justify-content: space-between; 
-  height: 500px; /* Set a fixed height for uniformity */
-  overflow: hidden; /* Prevent overflow of text */
+  height: 500px; 
+  overflow: hidden; 
 }
+
+.CardImage {
+  width: 100%; /* Ensure it takes full width */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 140px; /* Limit the height */
+  border-radius: 8px 8px 0 0; /* Only round top corners */
+  margin-bottom: 16px; /* Keep the margin */
+}
+
 
 .CardTitle {
   text-align: start;
-  margin-bottom: 10px; /* Add some margin for spacing */
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  text-decoration: underline; 
 }
 
 .CardDescription {
-  flex-grow: 1; /* Allow the description to take up available space */
-  overflow: hidden; /* Hide overflowing text */
-  text-overflow: ellipsis; /* Show ellipsis for overflowed text */
-  display: -webkit-box; /* Needed for truncating with ellipsis */
-
+  flex-grow: 1;
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  display: -webkit-box; 
+  -webkit-line-clamp: 3; 
+  -webkit-box-orient: vertical;
 }
 
 .ButtonContainer {
   display: flex;
-  justify-content: center; /* Center the button horizontally */
-  margin-top: auto; /* Push the button to the bottom */
-  padding-top: 10px; /* Optional: Add some padding above the button */
+  align-items: center; 
+  margin-top: auto;
+  padding-top: 10px;
+  gap: 30px; 
+}
+
+.GlobeIcon {
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.GlobeIcon:hover {
+  color: #aaa; 
+}
+.LinkButton {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: white;
+  background-color: #333;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.LinkButton:hover {
+  background-color: #555;
 }

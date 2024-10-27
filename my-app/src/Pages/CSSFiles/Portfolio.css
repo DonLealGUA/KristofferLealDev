@@ -72,7 +72,7 @@ h1 {
 
 /* Add this to make cards responsive */
 .CardContainer > div {
-    flex: 1 0 30%; /* Each card takes up to 30% of the row (3 cards max) */
-    max-width: 30%; /* Prevents the card from growing larger than 30% */
-    margin: 10px; /* Adds spacing between cards */
+    flex: 1 0 30%; 
+    max-width: 30%; 
+    margin: 10px; 
 }
