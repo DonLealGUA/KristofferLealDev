@@ -19,7 +19,8 @@ html, body {
 
 .Container {
     display: flex; 
-    width: 100%; 
+    width: 80%; /* Changed to 80% to account for 10% on both sides */
+    margin: 0 auto; /* Centers the container */
 }
 
 .CardContainer {
@@ -28,6 +29,7 @@ html, body {
     justify-content: center; 
     margin-top: 20px; 
     padding-bottom: 5%; 
+    max-width: 100%; /* Ensure it takes the full width of the parent */
 }
 
 .Sidebarleft {
@@ -63,7 +65,14 @@ h1 {
     margin-right: 0.2em; 
 }
 
-.headerp{
+.headerp {
     margin-right: 40%;
     width: 70%;
+}
+
+/* Add this to make cards responsive */
+.CardContainer > div {
+    flex: 1 0 30%; /* Each card takes up to 30% of the row (3 cards max) */
+    max-width: 30%; /* Prevents the card from growing larger than 30% */
+    margin: 10px; /* Adds spacing between cards */
 }
