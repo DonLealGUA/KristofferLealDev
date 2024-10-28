@@ -116,62 +116,50 @@ const Resume = () => {
               lessons. My ability to adapt to new tools and workflows
               efficiently makes me a flexible and effective team member.
             </p>
-
             </div>
+
+            <div className="right-hidden">
+          <img
+            className="rightimage"
+            src="/assets/ab742d7f-e174-462e-bab0-3522a467a20c.jpg"
+            alt="Descriptive Alt Text"
+          />
+
+          {/* Button Container */}
+          <div className="ButtonContainer">
+            <HoverBorderGradient
+              containerClassName="rounded-full"
+              as="button"
+              className="dark:bg-black text-black dark:text-white flex items-center space-x-2 p-2"
+              onClick={() => handleDownload("english")}
+            >
+              <span className="text-white">Download My CV</span>
+              <PiReadCvLogo className="icon" />
+            </HoverBorderGradient>
+          </div>
+          </div>
            
-            {/* TechCard Section */}
-            <h2 className="text-4xl font-semibold mb-10 mt-20">Main Skills:</h2>
-            <div className="tech-and-experience-container">
-              <div className="tech-cards-container">
-                <TechCard
-                  imageUrl="/assets/TeckStackPng/Java.png"
-                  skillName="Java"
-                  rating={5}
-                />
-                <TechCard
-                  imageUrl="/assets/TeckStackPng/Csharp.png"
-                  skillName="C#"
-                  rating={4}
-                />
-                <TechCard
-                  imageUrl="/assets/TeckStackPng/js.png"
-                  skillName="JavaScript"
-                  rating={3}
-                />
-                <TechCard
-                  imageUrl="/assets/TeckStackPng/Postgresql.png"
-                  skillName="Postgres SQL"
-                  rating={4}
-                />
-                <TechCard
-                  imageUrl="/assets/TeckStackPng/html.png"
-                  skillName="HTML"
-                  rating={4}
-                />
-                <TechCard
-                  imageUrl="/assets/TeckStackPng/css.png"
-                  skillName="CSS"
-                  rating={4}
-                />
-                <TechCard
-                  imageUrl="/assets/TeckStackPng/react.png"
-                  skillName="React"
-                  rating={3}
-                />
-                <TechCard
-                  imageUrl="/assets/TeckStackPng/Svelte.png"
-                  skillName="Svelte"
-                  rating={3}
-                />
-              </div>
+           {/* TechCard Section */}
+    <h2 className="text-4xl font-semibold mb-10 mt-20">Main Skills:</h2>
+    <div className="tech-and-experience-container">
+        <div className="experience-card">
+            <h3 className="text-8xl font-bold mb-10">1</h3>
+            <h3 className="text-3xl font-bold">Year</h3>
+            <h3 className="text-3xl font-bold">Experience Working</h3>
+        </div>
 
-              {/* Experience Card */}
-              <div className="experience-card">
-                <h3 className="text-8xl font-bold mb-10">1</h3>
-                <h3 className="text-3xl font-bold">Year</h3>
-                <h3 className="text-3xl font-bold">Experience Working</h3>
-              </div>
-            </div>
+        <div className="tech-cards-container">
+            <TechCard imageUrl="/assets/TeckStackPng/Java.png" skillName="Java" rating={5} />
+            <TechCard imageUrl="/assets/TeckStackPng/Csharp.png" skillName="C#" rating={4} />
+            <TechCard imageUrl="/assets/TeckStackPng/js.png" skillName="JavaScript" rating={3} />
+            <TechCard imageUrl="/assets/TeckStackPng/Postgresql.png" skillName="Postgres SQL" rating={4} />
+            <TechCard imageUrl="/assets/TeckStackPng/html.png" skillName="HTML" rating={4} />
+            <TechCard imageUrl="/assets/TeckStackPng/css.png" skillName="CSS" rating={4} />
+            <TechCard imageUrl="/assets/TeckStackPng/react.png" skillName="React" rating={3} />
+            <TechCard imageUrl="/assets/TeckStackPng/Svelte.png" skillName="Svelte" rating={3} />
+        </div>
+    </div>
+
 
             <div className="add-tech-cards-container">
               <h2 className="addtext text-4xl font-semibold mb-10">
