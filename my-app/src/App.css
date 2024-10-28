@@ -4,7 +4,7 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
-  overflow: hidden; /* Prevent scrolling on the body */
+  overflow: hidden; 
 }
 
 .home {
@@ -12,7 +12,7 @@ html, body {
   width: 100vw;
   display: flex;
   flex-direction: column;
-  overflow: hidden; /* Prevent scrolling in .home */
+  overflow: hidden; 
 }
 
 nav {
@@ -28,5 +28,5 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden; /* Ensure no scrolling within content */
+  overflow: hidden; 
 }
