@@ -74,4 +74,68 @@ h1 {
     flex: 1 0 30%; 
     max-width: 30%; 
     margin: 10px; 
+    box-sizing: border-box; 
+}
+
+/* Medium Screens: Up to 1400px */
+@media (max-width: 1400px) {
+    .CardContainer > div {
+        flex: 1 0 45%; 
+        max-width: 45%; 
+    }
+
+    .custom-title {
+        margin-left: 8%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .custom-title {
+        margin-left:1%;
+    }
+}
+
+
+/* Medium to Small Screens: Up to 900px */
+@media (max-width: 900px) {
+    .CardContainer > div {
+        flex: 1 0 100%; 
+        max-width: 100%;
+    }
+}
+
+/* Smaller tablets and large phones */
+@media (max-width: 768px) {
+    .Container {
+        width: 90%;
+        flex-direction: column;
+    }
+    .Sidebarleft, .Sidebarright {
+        display: none;
+    }
+    .Content {
+        width: 100%;
+        padding: 15px;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .headerp {
+        margin-right: 0;
+        width: 100%;
+    }
+}
+
+/* Small Screens: Phones */
+@media (max-width: 640px) {
+    .Portfolio {
+        padding-bottom: 20%; 
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .custom-title {
+        margin-left: 20%;
+    }
 }

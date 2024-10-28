@@ -64,3 +64,14 @@ textarea {
 .Subheader{
     margin-top: -15%;
 }
+
+@media (max-width: 608px) {
+
+    .contact-container{
+        padding: 0;
+    }
+    .icon-bubble {
+        max-width: 150%;
+        font-size: 0.8rem;
+    }
+}
