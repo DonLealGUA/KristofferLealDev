@@ -12,6 +12,7 @@ html, body {
   width: 100vw;
   display: flex;
   flex-direction: column;
+  overflow: hidden; /* Prevent scrolling in .home */
 }
 
 nav {
@@ -27,5 +28,5 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow-y: auto; /* Allow scrolling within the content area */
+  overflow: hidden; /* Ensure no scrolling within content */
 }
