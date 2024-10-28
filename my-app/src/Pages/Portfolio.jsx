@@ -67,9 +67,9 @@ const Portfolio = () => {
         <div className="Content">
           <div className="Header">
             <div className="portfolio-header mb-8">
-              <h1 className="text-5xl font-bold text-white mb-5">
-                <TypewriterEffectSmooth words={words} />
-              </h1>
+            <h1 className="introtitle custom-title">
+              <TypewriterEffectSmooth words={words} />
+            </h1>
               <p className="text-lg text-white mt-2">
                 Explore a Selection of Innovative Projects and Creative
                 Solutions.
