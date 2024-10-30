@@ -322,10 +322,34 @@ body {
         margin-top: 8px;             
     }
 
+
+
     @media (max-width: 570px) {
-        .developer-title{
+        .developer-title {
             margin-top: 40%;
         }
+
+    
+        .intro {
+            width: 120%; 
+            margin: 0 auto;
+            margin-left: -10%;
+        }
     }
+    
+    @media (max-width: 425px) {
+        .intro {
+            width: 380px; 
+            margin-left: -40px;
+        }
+
+
+        .timeline{
+            width: 400px;
+            margin-left: -10%;
+            padding: 0;
+        }
+    }
+
 }
 

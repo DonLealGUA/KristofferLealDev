@@ -14,7 +14,7 @@ function App() {
   const renderComponent = () => {
     switch (currentPage) {
       case 'home':
-        return <Home />;
+        return <Home setCurrentPage={setCurrentPage} />; 
       case 'about':
         return <Aboutme />;
       case 'resume':

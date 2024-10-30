@@ -1,5 +1,3 @@
-/* src/CSSFiles/Home.css */
-
 .home {
   position: relative;
   background-color: black;
@@ -101,19 +99,33 @@ button:hover {
   background: linear-gradient(90deg, rgba(115, 88, 214, 0.2), rgba(0, 0, 0, 0.2));
 }
 
+.button-container button .spin-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; /* Ensures spin stays within button */
+}
+
+/* Original spinning span adjustments */
+.button-container button .spin-wrapper span {
+  inset: -1000%; /* Original size */
+}
+
 /* Responsive Styles */
 
 @media (max-width: 1025px) {
   .content-container {
-    flex-direction: row; /* Keep items side by side */
+    flex-direction: row; 
   }
 
   .left-content {
-    margin-left: 20%; /* 20% margin from left */
+    margin-left: 20%; 
   }
 
   .right-content {
-    margin-right: 20%; /* 20% margin from right */
+    margin-right: 20%; 
   }
 }
 
@@ -130,27 +142,31 @@ button:hover {
 
 @media (max-width: 1024px) {
   .content-container {
-    flex-direction: column; /* Stack vertically */
+    flex-direction: column; 
   }
 
   .left-content {
-    text-align: center; /* Center text */
-    max-width: 100%; /* Full width */
-    margin-left: 0; /* Reset margin */
+    text-align: center;
+    max-width: 100%; 
+    margin-left: 0; 
   }
 
   .right-content {
-    margin-right: 0; /* Reset margin */
-    align-items: center; /* Center image */
+    margin-right: 0; 
+    align-items: center; 
   }
 
   .right-content img {
-    max-width: 80%; /* Image takes most of the width */
-    margin-top: 20px; /* Space above image */
+    max-width: 80%; 
+    margin-top: 20px; 
+  }
+
+  button {
+    font-size: 0.875rem;
+    width: 60%;
   }
 }
 
-/* Additional responsive adjustments */
 @media (max-width: 768px) {
   .left-content h3 {
     font-size: 1.5rem;
@@ -176,4 +192,14 @@ button:hover {
     font-size: 0.875rem;
     width: 100%;
   }
+
+
+  @media (max-width: 570px) {
+
+    .button-container button .spin-wrapper{
+      width: 100%;
+      border-radius: 0 999px 999px 0; 
+    }
+  }
+
 }

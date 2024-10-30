@@ -41,7 +41,7 @@ function Aboutme() {
 
 
 
-      <div className="w-full mt-4 mx-auto px-[20%] relative z-10">
+      <div className="textdiv w-full mt-4 mx-auto px-[20%] relative z-10">
         <p id="topP" className="text-2xl mb-5 leading-relaxed">
           I am a software developer specializing in full-stack development. I
           hold a degree in System Development from Malmö University in Sweden,

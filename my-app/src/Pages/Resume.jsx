@@ -225,7 +225,7 @@ const Resume = () => {
               professional level proficiency.
             </p>
         </div>
-        <div className="w-full">
+        <div className="timeline  w-full">
       <Timeline data={data} />
     </div>
           </div>

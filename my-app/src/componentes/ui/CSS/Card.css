@@ -1,11 +1,10 @@
-/* src/Components/ui/CSS/Card.css */
 
 .Card {
   background-color: black; 
   border: 1px solid #ddd; 
   border-radius: 8px; 
   padding: 16px; 
-  width: calc(16.66% - 20px); /* Default to 6 cards per row */
+  width: calc(16.66% - 20px); 
   margin-bottom: 3.5%; 
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
   display: flex; 

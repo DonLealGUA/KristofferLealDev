@@ -1,4 +1,3 @@
-// src/components/Navbar.js
 import React, { useState } from 'react';
 
 const Navbar = ({ setCurrentPage, currentPage }) => {
@@ -12,7 +11,6 @@ const Navbar = ({ setCurrentPage, currentPage }) => {
     <nav className="bg-black text-white py-4">
       <div className="container mx-auto flex justify-between items-center">
         
-
         {/* Desktop Navigation Links */}
         <ul className="hidden md:flex space-x-10 flex-1 justify-center text-2xl">
           {['home', 'about', 'resume', 'portfolio', 'contact'].map((page) => (
@@ -35,7 +33,7 @@ const Navbar = ({ setCurrentPage, currentPage }) => {
         {/* Mobile Menu Icon */}
         <button
           onClick={handleMobileMenuToggle}
-          className="md:hidden text-2xl flex-1 text-right"
+          className="md:hidden text-2xl flex-1 text-right mr-8"
         >
           ☰
         </button>
@@ -43,15 +41,15 @@ const Navbar = ({ setCurrentPage, currentPage }) => {
 
       {/* Mobile Navigation Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-black text-white py-4 space-y-4">
+        <div className="md:hidden bg-black text-white py-4 space-y-4 flex flex-col items-end pr-4">
           {['home', 'about', 'resume', 'portfolio', 'contact'].map((page) => (
             <button
               key={page}
               onClick={() => {
                 setCurrentPage(page);
-                setMobileMenuOpen(false); // Close menu on selection
+                setMobileMenuOpen(false); 
               }}
-              className={`block w-full text-left px-4 py-2 text-2xl transition-all duration-300 ${
+              className={`block w-full text-right px-4 py-2 text-2xl transition-all duration-300 ${
                 currentPage === page ? 'font-bold text-gray-300' : 'hover:text-gray-300'
               }`}
             >
