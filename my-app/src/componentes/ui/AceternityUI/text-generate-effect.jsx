@@ -1,4 +1,3 @@
-"use client";
 import { useEffect } from "react";
 import { motion, useAnimate } from "framer-motion";
 import { cn } from "/src/lib/utils.js";
@@ -11,11 +10,18 @@ export const TextGenerateEffect = ({
   fontSize = "2xl", // default size
 }) => {
   const [scope, animate] = useAnimate();
-  const wordsArray = words.split(" ");
+
+  // Split words by spaces and newlines
+  const wordsArray = words.split(/(\s+)/); 
+
+  // Create an array of invisible placeholders
+  const invisiblePlaceholders = Array(16).fill('\u200B'); 
+
+  const fullArray = [...wordsArray, ...invisiblePlaceholders]; 
 
   useEffect(() => {
     animate(
-      scope.current.querySelectorAll("span"),
+      scope.current.querySelectorAll("span:not(.space)"),
       { opacity: 1, filter: filter ? "blur(0px)" : "none" },
       {
         duration,
@@ -30,13 +36,16 @@ export const TextGenerateEffect = ({
         ref={scope}
         className={`mt-4 leading-snug tracking-wide text-${fontSize}`} // Apply font size here
       >
-        {wordsArray.map((word, idx) => (
+        {fullArray.map((word, idx) => (
           <motion.span
             key={idx}
-            className="opacity-0 inline-block mr-1 text-white dark:text-white"
-            style={{ filter: filter ? "blur(10px)" : "none" }}
+            className={`opacity-0 inline-block ${word.trim() === "" ? 'space' : ''}`} // Add class for spaces
+            style={{
+              filter: word.trim() === "" || !filter ? "none" : "blur(10px)",
+              marginRight: word.trim() === "" ? "0" : "0.5rem", // Adjust spacing for non-space words
+            }}
           >
-            {word}{" "}
+            {word} {/* Render the word with space intact */}
           </motion.span>
         ))}
       </motion.div>

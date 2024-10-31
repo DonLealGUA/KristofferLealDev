@@ -1,0 +1,19 @@
+@media (max-width: 1025px) {
+    .languagebutton{
+        width:120px;
+        margin-right: 30px;
+    }
+
+    .gradientline{
+        width: 45px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .languagediv{
+        display: none;
+    }
+}
+
+

@@ -1,0 +1,126 @@
+{
+  "home": {
+    "greeting": "Hej! Jag heter:",
+    "title": "Kristoffer Leal",
+    "description": "Jag är en mjukvaruutvecklare med en examen i systemutveckling från Malmö Universitet i Sverige.",
+    "readMore": "Läs mer →"
+  },
+  "header": {
+    "title": "Hej! Jag är,",
+    "subtitle": "och jag är en mjukvaruutvecklare."
+  },
+  "introduction": {
+    "paragraphs": {
+      "paragraph1": "Jag är en mjukvaruutvecklare som specialiserar sig på fullstack-utveckling. Jag har en examen i systemutveckling från Malmö Universitet i Sverige, med fokus på backend-utveckling. Min akademiska bakgrund inkluderar också kurser i frontend-utveckling, vilket, tillsammans med mitt intresse för design och uppmärksamhet på detaljer, gör att jag kan utmärka mig som en fullstack-utvecklare.",
+      "paragraph2": "Jag har erfarenhet av olika programmeringsspråk och ramverk, inklusive Java, C#, .NET, HTML, CSS, JavaScript och ramverk som React och Svelte. Dessutom har jag ett stort intresse för artificiell intelligens och Internet of Things.",
+      "paragraph3": "Utanför arbete och studier är mina intressen bartenderi, att titta på fotboll, samla dofter och bygga LEGO-set. Jag tycker också om att resa och gå i naturen."
+    },
+    "aiStudy": {
+      "linkText": "En kritisk granskning av studenters användning av AI-verktyg och dess inverkan på deras utbildning inom programmering",
+      "description": "Om du är intresserad av AI kan du läsa min kandidatavhandling. Min studie undersöker integrationen av AI-verktyg i det svenska utbildningssystemet, med fokus på deras användning av programmeringsstudenter inom systemutvecklingsprogrammet. Syftet är att analysera hur studenter använder AI-verktyg, som GitHub Copilot, Tabnine och ChatGPT, för att lösa programmeringsuppgifter, samt att identifiera upplevda fördelar och utmaningar."
+    },
+    "studySummary": "Genom kvalitativa intervjuer och kvantitativa enkäter från andra- och tredjeårsstudenter vid Malmö Universitet syftar studien till att förstå studenters erfarenheter av AI-verktyg..."
+  },
+  "resume": {
+    "title": "CV",
+    "projects": {
+      "2022": {
+        "project": "HomeQuest",
+        "role": "Backendutvecklare",
+        "description": "År 2022 bidrog jag till utvecklingen av HomeQuest, ett 2D-top-down-spel där jag fokuserade på att optimera spelmekaniken och användarupplevelsen som Backendutvecklare. Genom att leda ett team på fem personer använde jag objektorienterade programmeringsprinciper för att strukturera koden, vilket resulterade i en prestandaökning på 15 %. Jag underlättade effektiv projektledning genom YouTrack, följde över 15 uppgifter och höll transparens genom att presentera sprintresultat för intressenter för att säkerställa måluppfyllelse. Spelartester och feedback hjälpte till att förbättra spelupplevelsen och öka spelarnöjdheten."
+      },
+      "2023": {
+        "project": "Polis+",
+        "role": "Fullstackutvecklare",
+        "description": "År 2023, som Fullstackutvecklare för Polis+, designade jag en applikation för Malmö universitets polisutbildning som möjliggör för lärare att skapa realistiska utbildningsscenarier. Genom att använda JavaScript, HTML, CSS och Svelte prioriterade jag responsiv design och användarvänlighet. Jag implementerade Strapi som ett headless CMS för att effektivisera innehållshanteringen och använde Docker för att skapa en konsekvent utvecklingsmiljö. Med effektiv versionskontroll genom Git förbättrade jag teamsamarbetet och effektiviteten, vilket bidrog till ett framgångsrikt projektresultat."
+      },
+      "2024": {
+        "project": "Examen",
+        "role": "Kandidatexamen i datavetenskap (Systemutvecklare)",
+        "description": "År 2024 tog jag stolt examen från Malmö universitet efter att ha avslutat ett omfattande treårigt program i systemutveckling. Denna erfarenhet gav mig en solid grund inom mjukvaruutvecklingsprinciper, programmeringsspråk och problemlösningsförmågor, vilket har förberett mig för att utmärka mig inom teknikens dynamiska fält. Min utbildning fördjupade inte bara min tekniska kunskap utan förstärkte också min passion för att utveckla innovativa lösningar och samarbeta i olika teammiljöer."
+      }
+    },
+    "summary": {
+      "title": "Mjukvaruutvecklare",
+      "subtitle": "Backend / Fullstack",
+      "introduction": {
+        "paragraphs": {
+          "paragraph1": "Drivande och nyligen examinerad mjukvaruingenjör med omfattande kunskap inom programmering, webbutveckling och design. Jag har ett starkt intresse för IT och en passion för att kombinera teknik med estetisk design. Efter att ha avslutat min examen är jag redo att anta nya utmaningar inom branschen och bidra med min expertis i en dynamisk arbetsmiljö.",
+          "paragraph2": "Jag har utvecklat en stark grund inom backend-programmering, med praktisk erfarenhet främst i Java, samt i C# .NET och databasadministration. Medan min expertis ligger inom backend-utveckling, har jag också en passion för frontend-teknologier som React och Svelte, vilket gör att jag kan skapa sömlösa och dynamiska användarupplevelser. Jag trivs i samarbetsmiljöer där jag kan utnyttja mina backend-färdigheter samtidigt som jag bidrar till frontend-innovation, vilket kombinerar teknisk expertis med ledarskap för att driva projekten framåt.",
+          "paragraph3": "Jag lär mig snabbt nya teknologier och är öppen för nya idéer och lektioner. Min förmåga att anpassa mig till nya verktyg och arbetsflöden effektivt gör mig till en flexibel och effektiv teammedlem."
+        }
+      },
+      "button": {
+        "text": "Ladda ner mitt CV"
+      },
+      "experience": {
+        "years": "1",
+        "description": "Års arbets-erfarenhet"
+      },
+      "softSkills": {
+        "Title1": "Mjuka färdigheter och Kommunikation",
+        "Title2": "Språk:"
+      },
+      "timeline": {
+        "Title1": "Min resa som mjukvaruutvecklare",
+        "Title2": "Nedan visas en tidslinje som belyser min resa och utveckling som utvecklare, med fokus på viktiga universitetsprojekt och arbetslivserfarenhet."
+    }
+    },
+    "skills": {
+      "mainSkills": {
+        "description": "Huvudkunskaper:"
+      },
+      "additionalSkills": {
+        "description": "Ytterligare teknologisk kompetens:"
+      },
+      "softSkills": {
+        "description": "Utmärkta samarbetsförmågor, flerspråkig kommunikation och förmåga att ta initiativ.",
+        "languages": "Modersmål i Spanska men semi-flytande; Modersmål och flytande i Svenska; professionell nivå i Engelska."
+      }
+    }
+  }, 
+  "portfolio": {
+    "buttontext": {
+      "text": "Kolla in projektet"
+    },
+    "pagetext": {
+    "text1": "Utforska ett urval av innovativa projekt och kreativa lösningar."
+  },
+    "projects": {
+      "HomeQuest": {
+        "description": "HomeQuest är ett pixelkonst-RPG för alla åldrar, med uppdrag och utforskning. Utvecklat i Java utan spelmotor, betonar det kreativitet och tillgänglighet med miljöljud, karaktärrörelser och interaktiva NPC:er. Spelare löser pussel för att låsa upp nya områden och njuter av en smidig spelupplevelse på Windows."
+      },
+      "Chatroom": {
+        "description": "Java Chatroom är en plattform för meddelanden i realtid med offentliga och privata chattrum. Byggd med Java-sockets, har den ett GUI med användarautentisering, medlemslistor och direktmeddelandefunktioner, designad för att köras med Java 8 eller senare på Windows."
+      },
+      "JediArchives": {
+        "description": "JediArchives är en React-sida för Star Wars-fans att utforska karaktärer med hjälp av SWAPI API. Designad med Chakra UI, ger den ett sömlöst gränssnitt där användare kan fördjupa sig i Star Wars-världen och upptäcka detaljer om sina favoritkaraktärer."
+      },
+      "OogHub": {
+        "description": "OogHub är en React-app som erbjuder användare slumpmässiga citat inspirerade av Mästare Oogway. Användare kan spara citat och lära sig om deras författare genom att använda Quotable och Wikipedia API för insiktsfullt innehåll, med smidiga animationer och en responsiv design."
+      },
+      "BlackJack": {
+        "description": "Blackjack-spelet är en C#-applikation som använder Windows Forms och Entity Framework Core, och som ger liv åt det klassiska kortspelet. Spelare njuter av traditionellt spel med datalagring i en SQL Server-databas, hanterad genom LINQ för effektiva interaktioner."
+      },
+      "ScreenScore": {
+        "description": "ScreenScore är en filmhanteringsapp byggd i React där användare kan lägga till, ta bort och organisera filmer. Den har ett användarvänligt gränssnitt, responsiv design och möjliggör sortering efter titel eller betyg, vilket förbättrar upplevelsen av att hantera en personlig filmsamling."
+      }
+    }, "words": [
+      {
+        "text1": "Mitt "
+      },
+      {
+        "text2": "Digitala"
+      },
+      {
+        "text3": "Portfolio."
+      }
+    ]
+  },
+  "contact": {
+    "displaytext": {
+      "header": "Kontaktinformation",
+      "Desc": "Om du har några frågor eller vill komma i kontakt, tveka inte att kontakta mig!"
+    }
+  }
+}

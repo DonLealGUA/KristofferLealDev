@@ -1,0 +1,124 @@
+{
+  "home": {
+    "greeting": "¡Hola! Me llamo:",
+    "title": "Kristoffer Leal",
+    "description": "Soy un desarrollador de software con un título en desarrollo de sistemas de la Universidad de Malmö en Suecia.",
+    "readMore": "Leer más →"
+  },
+  "header": {
+    "title": "¡Hola! Soy,",
+    "subtitle": "y soy un desarrollador de software."
+  },
+  "introduction": {
+    "paragraph1": "Soy un desarrollador de software especializado en desarrollo full-stack. Tengo un título en desarrollo de sistemas de la Universidad de Malmö en Suecia, con un enfoque principal en el desarrollo backend. Mi formación académica también incluye cursos en desarrollo frontend, lo que, junto con mi interés por el diseño y la atención a los detalles, me permite sobresalir como desarrollador full-stack.",
+    "paragraph2": "Tengo experiencia en varios lenguajes de programación y frameworks, incluidos Java, C#, .NET, HTML, CSS, JavaScript y frameworks como React y Svelte. Además, tengo un gran interés en la inteligencia artificial y el Internet de las Cosas.",
+    "paragraph3": "Fuera del trabajo y los estudios, mis pasatiempos incluyen ser bartender, ver fútbol, coleccionar fragancias y construir sets de LEGO. También disfruto viajar y caminar por la naturaleza.",
+    "aiStudy": {
+      "linkText": "Un examen crítico del uso de herramientas de IA por parte de los estudiantes y su impacto en su educación en programación",
+      "description": "Si estás interesado en la IA, puedes leer mi trabajo de licenciatura. Mi estudio investiga la integración de herramientas de IA en el sistema educativo sueco, centrándose en su uso por parte de estudiantes de programación en el programa de desarrollo de software. El objetivo es analizar cómo los estudiantes utilizan herramientas de IA, como GitHub Copilot, Tabnine y ChatGPT, para resolver tareas de programación, así como identificar los beneficios y desafíos percibidos."
+    },
+    "studySummary": "A través de entrevistas cualitativas y encuestas cuantitativas a estudiantes de segundo y tercer año en la Universidad de Malmö, el estudio tiene como objetivo comprender las experiencias de los estudiantes con herramientas de IA..."
+  },
+ "resume": {
+    "title": "Currículum",
+    "projects": {
+      "2022": {
+        "project": "HomeQuest",
+        "role": "Desarrollador Backend",
+        "description": "En el año 2022, contribuí al desarrollo de HomeQuest, un juego en 2D de vista superior, donde me enfoqué en optimizar la mecánica del juego y la experiencia del usuario como Desarrollador Backend. Liderando un equipo de cinco personas, apliqué principios de programación orientada a objetos para estructurar el código, lo que resultó en un aumento de rendimiento del 15%. Facilitaba la gestión de proyectos eficaz a través de YouTrack, seguía más de 15 tareas y mantenía la transparencia presentando los resultados de las iteraciones a las partes interesadas, asegurando el cumplimiento de los objetivos de desarrollo. Las sesiones de retroalimentación con los jugadores permitieron mejorar iterativamente el juego y aumentar la satisfacción general."
+      },
+      "2023": {
+        "project": "Polis+",
+        "role": "Desarrollador Fullstack",
+        "description": "En 2023, como Desarrollador Fullstack para Polis+, diseñé una aplicación para el Programa de Policía de la Universidad de Malmö, permitiendo a los docentes crear escenarios de capacitación inmersivos. Usando JavaScript, HTML, CSS y Svelte, prioricé el diseño responsivo y la facilidad de uso. Implementé Strapi como un CMS sin cabeza para agilizar la gestión de contenido y utilicé Docker para crear un entorno de desarrollo consistente. A través de un control de versiones efectivo con Git, mejoré la colaboración y eficiencia del equipo, contribuyendo al éxito del proyecto."
+      },
+      "2024": {
+        "project": "Graduación",
+        "role": "Licenciatura en Ciencias de la Computación (Desarrollador de Sistemas)",
+        "description": "En 2024, me gradué con orgullo de la Universidad de Malmö después de completar un extenso programa de tres años en Desarrollo de Sistemas. Esta experiencia me proporcionó una base sólida en principios de ingeniería de software, lenguajes de programación y habilidades de resolución de problemas, preparándome para destacar en el dinámico campo de la tecnología. Mi educación no solo profundizó mi conocimiento técnico, sino que también reforzó mi pasión por desarrollar soluciones innovadoras y colaborar en entornos de equipo diversos."
+      }
+    },
+    "summary": {
+      "title": "Desarrollador de Software",
+      "subtitle": "Backend / Fullstack",
+      "introduction": {
+        "paragraph1": "Desarrollador de software proactivo y recién graduado con un amplio conocimiento en programación, desarrollo web y diseño. Tengo un gran interés en TI y una pasión por combinar tecnología con diseño estético. Después de completar mi licenciatura, estoy listo para asumir nuevos desafíos en la industria y aportar mi experiencia en un entorno de trabajo dinámico.",
+        "paragraph2": "He desarrollado una sólida base en programación backend, con experiencia práctica principalmente en Java, así como en C# .NET y administración de bases de datos. Si bien mi experiencia se centra en el desarrollo backend, también tengo una pasión por tecnologías frontend como React y Svelte, lo que me permite crear experiencias de usuario fluidas y dinámicas. Disfruto en entornos colaborativos donde puedo aprovechar mis habilidades de backend mientras contribuyo a la innovación en el frontend, combinando experiencia técnica con liderazgo para impulsar los proyectos hacia adelante.",
+        "paragraph3": "Aprendo rápidamente nuevas tecnologías y estoy abierto a nuevas ideas y lecciones. Mi capacidad para adaptarme eficazmente a nuevas herramientas y flujos de trabajo me convierte en un miembro de equipo flexible y eficiente."
+    },
+      "button": {
+        "text": "Descargar mi CV"
+      },
+      "experience": {
+        "years": "1",
+        "description1": "Años de",
+        "description2": "experiencia laboral"
+      },
+      "softSkills": {
+        "Title1": "Habilidades Blandas y Comunicación:",
+        "Title2": "Idiomas:"
+      },
+      "timeline": {
+        "Title1": "Mi trayectoria como desarrollador de software",
+        "Title2": "A continuación, se muestra una línea de tiempo que destaca mi trayectoria y crecimiento como desarrollador, resaltando proyectos universitarios significativos y experiencia laboral."
+    }
+    },
+    "skills": {
+      "mainSkills": {
+        "description": "Habilidades Principales:"
+      },
+      "additionalSkills": {
+        "description": "Tecnologías Adicionales:"
+      },
+      "softSkills": {
+        "description": "Excelentes habilidades de colaboración, comunicación multilingüe y capacidad para tomar la iniciativa.",
+        "languages": "Nativo y fluido en Sueco; Nativo en Español pero semi-fluido; Profesional en Inglés."
+      }
+    }
+  },
+  "portfolio": {
+    "buttontext": {
+      "text": "Mira el proyecto"
+    },
+    "pagetext": {
+    "text1": "Explora una selección de proyectos innovadores y soluciones creativas."
+  },
+    "projects": {
+      "HomeQuest": {
+        "description": "HomeQuest es un RPG de arte en píxeles para todas las edades, con misiones y exploración. Desarrollado en Java sin motor de juego, destaca por su creatividad y accesibilidad, con sonidos ambientales y NPCs interactivos."
+      },
+      "Chatroom": {
+        "description": "Java Chatroom es una plataforma de mensajería en tiempo real con salas de chat públicas y privadas, construida con sockets de Java, que incluye autenticación de usuarios y mensajería directa."
+      },
+      "JediArchives": {
+        "description": "JediArchives es un sitio en React para fans de Star Wars que explora personajes usando la API de SWAPI, con una interfaz fluida gracias a Chakra UI."
+      },
+      "OogHub": {
+        "description": "OogHub es una app en React que ofrece citas aleatorias inspiradas por el Maestro Oogway, permitiendo a los usuarios guardar citas y aprender sobre sus autores."
+      },
+      "BlackJack": {
+        "description": "Blackjack es una aplicación en C# que usa Windows Forms y Entity Framework Core, que permite jugar al clásico juego de cartas con persistencia de datos en SQL Server."
+      },
+      "ScreenScore": {
+        "description": "ScreenScore es una app de gestión de películas en React que permite a los usuarios agregar, eliminar y organizar películas con un diseño adaptativo."
+      }
+    },
+    "words": [
+      {
+        "text1": "Mi "
+      },
+      {
+        "text2": "Portafolio "
+      },
+      {
+        "text3": "Digital."
+      }
+    ]
+  },
+  "contact": {
+    "displaytext": {
+      "header": "Información de Contacto",
+      "Desc": "Si tienes alguna pregunta o deseas ponerte en contacto, ¡no dudes en contactarme!"
+    }
+  }
+}
