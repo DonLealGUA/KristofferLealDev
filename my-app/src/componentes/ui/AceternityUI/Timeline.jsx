@@ -1,11 +1,13 @@
 "use client";
 import { useScroll, useTransform, motion } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
+import { useTranslation } from 'react-i18next';
 
 export const Timeline = ({ data }) => {
   const ref = useRef(null);
   const containerRef = useRef(null);
   const [height, setHeight] = useState(0);
+  const { t } = useTranslation();
 
   useEffect(() => {
     if (ref.current) {
@@ -27,10 +29,10 @@ export const Timeline = ({ data }) => {
     <div className="w-full font-sans md:px-10">
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
         <h2 className="text-lg md:text-4xl mb-4 max-w-4xl text-neutral-300">
-          My Journey as a Software Developer
+        {t('resume.summary.timeline.Title1')}
         </h2>
         <p className="text-neutral-500 text-sm md:text-base max-w-full">
-          Below is a timeline showcasing my journey and growth as a developer, highlighting significant university projects and work experience.
+        {t('resume.summary.timeline.Title2')}
         </p>
       </div>
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">

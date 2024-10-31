@@ -1,0 +1,78 @@
+{
+  "home": {
+    "greeting": "Hi! My name is:",
+    "title": "Kristoffer Leal",
+    "description": "I am a software developer with a degree in System Development from Malmö University in Sweden.",
+    "readMore": "Read More →"
+  },
+  "header": {
+    "title": "Hello! I’m",
+    "subtitle": "and I’m a Software Developer."
+  },
+  "introduction": {
+    "paragraph1": "I am a software developer specializing in full-stack development. I hold a degree in System Development from Malmö University in Sweden, focusing primarily on backend development. My academic background also includes courses in frontend development, which, combined with my interest in design and attention to detail, enables me to excel as a full-stack developer.",
+    "paragraph2": "I have experience with various programming languages and frameworks, including Java, C#, .NET, HTML, CSS, JavaScript, and frameworks like React and Svelte. Additionally, I have a keen interest in artificial intelligence and the Internet of Things.",
+    "paragraph3": "Outside of work and study, my hobbies include bartending, watching football, collecting fragrances, and building LEGO sets. I also enjoy traveling and walking in nature.",
+    "aiStudy": {
+      "linkText": "A critical examination of student use of AI tools and their impact on education in programming",
+      "description": "If you are interested in AI, you can read my Bachelor’s paper. My study investigates the integration of AI tools in the Swedish education system, focusing on their use by programming students in the software development program. It aims to analyze how students use AI tools, such as GitHub Copilot, Tabnine, and ChatGPT, to solve programming tasks, as well as to identify perceived benefits and challenges."
+    },
+    "studySummary": "Using qualitative interviews and quantitative surveys from second- and third-year students at Malmö University, the study seeks to understand students' experiences with AI tools..."
+  },
+  "resume": {
+    "projects": {
+      "2022": {
+        "project": "HomeQuest",
+        "role": "Backend Developer",
+        "description": "In 2022, I contributed to the development of HomeQuest, a 2D top-down game where I focused on optimizing gameplay mechanics and user experience as a Backend Developer. Leading a team of five, I employed object-oriented programming principles to structure the code, resulting in a 15% performance boost. I facilitated effective project management through YouTrack, tracked over 15 tasks, and maintained transparency by presenting sprint results to stakeholders, ensuring alignment on development goals. Engaging players through feedback sessions informed iterative improvements, enhancing overall satisfaction."
+      },
+      "2023": {
+        "project": "Polis+",
+        "role": "Fullstack Developer",
+        "description": "In 2023, as a Fullstack Developer for Polis+, I designed an application for Malmö University's Police Program, enabling educators to create immersive training scenarios. Utilizing JavaScript, HTML, CSS, and Svelte, I prioritized responsive design and user-friendliness. I implemented Strapi as a headless CMS, streamlining content management and used Docker to create a consistent development environment. Through effective Git version control, I improved team collaboration and efficiency, contributing to a successful project outcome."
+      },
+      "2024": {
+        "project": "Graduation",
+        "role": "Bachelor of Computer Science (System Developer)",
+        "description": "In 2024, I proudly graduated from Malmö University after completing a comprehensive three-year program in System Development. This experience equipped me with a solid foundation in software engineering principles, programming languages, and problem-solving skills, preparing me to excel in the dynamic field of technology. My education not only deepened my technical knowledge but also fostered my passion for developing innovative solutions and collaborating in diverse team environments."
+      }
+    },
+    "summary": {
+      "title": "Software Developer",
+      "subtitle": "Back-end / Fullstack",
+      "introduction": {
+        "paragraph1": "Driven and recently graduated Software Engineer with comprehensive knowledge in programming, web development, and design. I have a strong interest in IT and a passion for combining technology with aesthetic design. After completing my degree, I am ready to take on new challenges in the industry and contribute my expertise in a dynamic workplace.",
+        "paragraph2": "I have developed a strong foundation in backend programming, with hands-on experience primarily in Java, as well as in C# .NET and database management. While my expertise lies in backend development, I also have a passion for frontend technologies such as React and Svelte, enabling me to create seamless and dynamic user experiences. I thrive in collaborative environments where I can leverage my backend skills while contributing to frontend innovation, combining technical expertise with leadership to drive projects forward.",
+        "paragraph3": "I am quick to learn new technologies and open to new ideas and lessons. My ability to adapt to new tools and workflows efficiently makes me a flexible and effective team member."
+      },
+      "button": {
+        "text": "Download My CV"
+      },
+      "experience": {
+        "years": "1",
+        "description1": "Year",
+        "description2": "Experience Working"
+      },
+      "softSkills": {
+        "Title1": "Soft Skills and Communication:",
+        "Title2": "Languages:"
+      },
+      "timeline": {
+        "Title1": "My Journey as a Software Developer",
+        "Title2": " Below is a timeline showcasing my journey and growth as a developer, highlighting significant university projects and work experience."
+      }
+    },
+    "skills": {
+      "mainSkills": {
+        "description": "Main Skills:"
+      },
+      "additionalSkills": {
+        "description": " Additional TechStack:"
+      },
+      "softSkills": {
+        "description": "Excellent collaboration skills, multilingual communication, and capable of taking initiative.",
+        "languages": "Native speaker in Spanish but semi-fluent; native and fluent in Swedish; professional in English."
+      }
+    }
+  }
+}

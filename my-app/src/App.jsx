@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useState } from 'react';
 import Home from './Pages/Home'; 
 import Aboutme from './Pages/AboutMe'; 
@@ -9,7 +8,8 @@ import Navbar from './componentes/Navbar';
 import "./App.css";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('home'); 
+  // Default the initial page to 'home' without using localStorage
+  const [currentPage, setCurrentPage] = useState('home');
 
   const renderComponent = () => {
     switch (currentPage) {
