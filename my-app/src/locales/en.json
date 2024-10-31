@@ -1,4 +1,11 @@
-{
+{  
+  "Navbar":{
+  "home": "Home",
+  "about": "About",
+  "cv": "Resume",
+  "portfolio": "Portfolio",
+  "contact": "Contact"
+},
   "home": {
     "greeting": "Hi! My name is:",
     "title": "Kristoffer Leal",

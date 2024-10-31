@@ -1,4 +1,11 @@
 {
+  "Navbar": {
+  "home": "Hem",
+  "about": "Om",
+  "cv": "CV",
+  "portfolio": "Portfolio",
+  "contact": "Kontakt"
+},
   "home": {
     "greeting": "Hej! Jag heter:",
     "title": "Kristoffer Leal",

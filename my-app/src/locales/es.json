@@ -1,4 +1,11 @@
 {
+  "Navbar": {
+  "home": "Inicio",
+  "about": "Acerca de",
+  "cv": "Currículum",
+  "portfolio": "Portafolio",
+  "contact": "Contacto"
+},
   "home": {
     "greeting": "¡Hola! Me llamo:",
     "title": "Kristoffer Leal",
