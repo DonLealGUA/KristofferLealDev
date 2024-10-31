@@ -55,7 +55,8 @@
       },
       "experience": {
         "years": "1",
-        "description": "Års arbets-erfarenhet"
+        "description1": "Års",
+        "description2": "arbets-erfarenhet"
       },
       "softSkills": {
         "Title1": "Mjuka färdigheter och Kommunikation",
