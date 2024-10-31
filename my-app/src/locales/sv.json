@@ -78,5 +78,49 @@
         "languages": "Modersmål i Spanska men semi-flytande; Modersmål och flytande i Svenska; professionell nivå i Engelska."
       }
     }
+  }, 
+  "portfolio": {
+    "buttontext": {
+      "text": "Kolla in projektet"
+    },
+    "pagetext": {
+    "text1": "Utforska ett urval av innovativa projekt och kreativa lösningar."
+  },
+    "projects": {
+      "HomeQuest": {
+        "description": "HomeQuest är ett pixelkonst-RPG för alla åldrar, med uppdrag och utforskning. Utvecklat i Java utan spelmotor, betonar det kreativitet och tillgänglighet med miljöljud, karaktärrörelser och interaktiva NPC:er. Spelare löser pussel för att låsa upp nya områden och njuter av en smidig spelupplevelse på Windows."
+      },
+      "Chatroom": {
+        "description": "Java Chatroom är en plattform för meddelanden i realtid med offentliga och privata chattrum. Byggd med Java-sockets, har den ett GUI med användarautentisering, medlemslistor och direktmeddelandefunktioner, designad för att köras med Java 8 eller senare på Windows."
+      },
+      "JediArchives": {
+        "description": "JediArchives är en React-sida för Star Wars-fans att utforska karaktärer med hjälp av SWAPI API. Designad med Chakra UI, ger den ett sömlöst gränssnitt där användare kan fördjupa sig i Star Wars-världen och upptäcka detaljer om sina favoritkaraktärer."
+      },
+      "OogHub": {
+        "description": "OogHub är en React-app som erbjuder användare slumpmässiga citat inspirerade av Mästare Oogway. Användare kan spara citat och lära sig om deras författare genom att använda Quotable och Wikipedia API för insiktsfullt innehåll, med smidiga animationer och en responsiv design."
+      },
+      "BlackJack": {
+        "description": "Blackjack-spelet är en C#-applikation som använder Windows Forms och Entity Framework Core, och som ger liv åt det klassiska kortspelet. Spelare njuter av traditionellt spel med datalagring i en SQL Server-databas, hanterad genom LINQ för effektiva interaktioner."
+      },
+      "ScreenScore": {
+        "description": "ScreenScore är en filmhanteringsapp byggd i React där användare kan lägga till, ta bort och organisera filmer. Den har ett användarvänligt gränssnitt, responsiv design och möjliggör sortering efter titel eller betyg, vilket förbättrar upplevelsen av att hantera en personlig filmsamling."
+      }
+    }, "words": [
+      {
+        "text1": "Mitt "
+      },
+      {
+        "text2": "Digitala"
+      },
+      {
+        "text3": "Portfolio."
+      }
+    ]
+  },
+  "contact": {
+    "displaytext": {
+      "header": "Kontaktinformation",
+      "Desc": "Om du har några frågor eller vill komma i kontakt, tveka inte att kontakta mig!"
+    }
   }
 }

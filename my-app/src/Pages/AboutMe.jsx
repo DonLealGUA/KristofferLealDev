@@ -54,8 +54,11 @@ const Aboutme = () => {
         <p className="text-2xl mb-5 leading-relaxed">
           {t('introduction.paragraph3')}
         </p>
+
+
+        
         <p className="text-2xl leading-relaxed mb-5">
-          {t('introduction.aiStudy.description')} &nbsp;
+          {t('introduction.aiStudy.p1')} &nbsp;
           <a
             href="https://www.diva-portal.org/smash/record.jsf?aq2=%5B%5B%5D%5D&c=1&af=%5B%5D&searchType=SIMPLE&sortOrder2=title_sort_asc&query=En+kritisk+granskning+p%C3%A5+studenters+anv%C3%A4ndning+av+AI-verktyg+och+dess+p%C3%A5verkan+p%C3%A5+deras+utbildning+inom+programmering&language=en&pid=diva2%3A1898616&aq=%5B%5B%5D%5D&sf=all&aqe=%5B%5D&sortOrder=author_sort_asc&onlyFullText=false&noOfRows=50&dswid=4648"
             target="_blank"
@@ -64,11 +67,16 @@ const Aboutme = () => {
           >
             {t('introduction.aiStudy.linkText')}
           </a>
-          {t('introduction.studySummary')}
+          {t('introduction.aiStudy.p2')}     
         </p>
         <p className="text-2xl mb-5 leading-relaxed">
-          {t('introduction.conclusion')}
+          {t('introduction.aiStudy.p3')}
         </p>
+        <p className="text-2xl mb-5 leading-relaxed">
+          {t('introduction.aiStudy.p4')}
+        </p>
+        
+
       </div>
       <BackgroundBeams />
     </div>

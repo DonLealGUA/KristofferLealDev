@@ -10,14 +10,16 @@
     "subtitle": "and I’m a Software Developer."
   },
   "introduction": {
-    "paragraph1": "I am a software developer specializing in full-stack development. I hold a degree in System Development from Malmö University in Sweden, focusing primarily on backend development. My academic background also includes courses in frontend development, which, combined with my interest in design and attention to detail, enables me to excel as a full-stack developer.",
+    "paragraph1": " I am a software developer specializing in full-stack development. I hold a degree in System Development from Malmö University in Sweden, with a primary focus on backend development. My academic background also includes courses in frontend development, which, combined with my interest in design and attention to detail, enables me to excel as a full-stack developer.",
     "paragraph2": "I have experience with various programming languages and frameworks, including Java, C#, .NET, HTML, CSS, JavaScript, and frameworks like React and Svelte. Additionally, I have a keen interest in artificial intelligence and the Internet of Things.",
     "paragraph3": "Outside of work and study, my hobbies include bartending, watching football, collecting fragrances, and building LEGO sets. I also enjoy traveling and walking in nature.",
     "aiStudy": {
+      "p1": "If you are interested in AI, you can read my Bachelor’s paper: ",
       "linkText": "A critical examination of student use of AI tools and their impact on education in programming",
-      "description": "If you are interested in AI, you can read my Bachelor’s paper. My study investigates the integration of AI tools in the Swedish education system, focusing on their use by programming students in the software development program. It aims to analyze how students use AI tools, such as GitHub Copilot, Tabnine, and ChatGPT, to solve programming tasks, as well as to identify perceived benefits and challenges."
-    },
-    "studySummary": "Using qualitative interviews and quantitative surveys from second- and third-year students at Malmö University, the study seeks to understand students' experiences with AI tools..."
+      "p2": ". My study investigates the integration of AI tools in the Swedish education system, focusing on their use by programming students in the software development program. It aims to analyze how students use AI tools, such as GitHub Copilot, Tabnine, and ChatGPT, to solve programming tasks, as well as to identify perceived benefits and challenges.",
+      "p3": "Using qualitative interviews and quantitative surveys from second- and third-year students at Malmö University, the study seeks to understand students' experiences with AI tools and their overall impact on learning. Results indicate that AI tools enhance productivity, efficiency, coding speed, and motivation, primarily by generating simple code, aiding debugging, and assisting with syntax and language translation.",
+      "p4": "The conclusion emphasizes the positive potential of AI tools in education, while highlighting the need for careful guidelines to ensure ethical use. The findings contribute to discussions on digitalization in education and offer insights for policymakers."
+    }
   },
   "resume": {
     "projects": {
@@ -73,6 +75,51 @@
         "description": "Excellent collaboration skills, multilingual communication, and capable of taking initiative.",
         "languages": "Native speaker in Spanish but semi-fluent; native and fluent in Swedish; professional in English."
       }
+    }
+  },
+  "portfolio": {
+    "buttontext": {
+      "text": "Check out the project"
+    },
+    "pagetext": {
+      "text1": " Explore a Selection of Innovative Projects and Creative Solutions."
+    },
+    "projects": {
+      "HomeQuest": {
+        "description": "HomeQuest is a pixel art RPG for all ages, featuring quests and exploration. Developed in Java without a game engine, it emphasizes creativity and accessibility with environmental sounds, character movement, and interactive NPCs. Players solve puzzles to unlock new areas, all while enjoying a smooth gameplay loop on Windows."
+      },
+      "Chatroom": {
+        "description": "Java Chatroom is a real-time messaging platform with public and private chatrooms. Built using Java sockets, it features a GUI with user authentication, member lists, and direct messaging capabilities, designed to run with Java 8 or later on Windows."
+      },
+      "JediArchives": {
+        "description": "JediArchives is a React site for Star Wars fans to explore characters using the SWAPI API. Styled with Chakra UI, it provides a seamless interface for users to dive into Star Wars lore and discover details about their favorite characters."
+      },
+      "OogHub": {
+        "description": "OogHub is a React app that offers users random quotes inspired by Master Oogway. Users can save quotes and learn about their authors, leveraging the Quotable and Wikipedia APIs for insightful content, enhanced by smooth animations and a responsive layout."
+      },
+      "BlackJack": {
+        "description": "The Blackjack Game is a C# application using Windows Forms and Entity Framework Core, bringing the classic card game to life. Players enjoy traditional gameplay with data persistence in a SQL Server database, managed through LINQ for efficient interactions."
+      },
+      "ScreenScore": {
+        "description": "ScreenScore is a React-based movie management app that lets users add, delete, and organize movies. It features a user-friendly interface, responsive design, and allows sorting by title or rating, enhancing the experience of managing a personal collection."
+      }
+    },
+    "words": [
+      {
+        "text1": "My "
+      },
+      {
+        "text2": "Digital"
+      },
+      {
+        "text3": "Portfolio."
+      }
+    ]
+  },
+  "contact": {
+    "displaytext":{
+      "header": "Contact Information",
+      "Desc": "If you have any questions or would like to reach out, feel free to contact me!"
     }
   }
 }

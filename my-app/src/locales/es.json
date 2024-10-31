@@ -75,5 +75,50 @@
         "languages": "Nativo y fluido en Sueco; Nativo en Español pero semi-fluido; Profesional en Inglés."
       }
     }
+  },
+  "portfolio": {
+    "buttontext": {
+      "text": "Mira el proyecto"
+    },
+    "pagetext": {
+    "text1": "Explora una selección de proyectos innovadores y soluciones creativas."
+  },
+    "projects": {
+      "HomeQuest": {
+        "description": "HomeQuest es un RPG de arte en píxeles para todas las edades, con misiones y exploración. Desarrollado en Java sin motor de juego, destaca por su creatividad y accesibilidad, con sonidos ambientales y NPCs interactivos."
+      },
+      "Chatroom": {
+        "description": "Java Chatroom es una plataforma de mensajería en tiempo real con salas de chat públicas y privadas, construida con sockets de Java, que incluye autenticación de usuarios y mensajería directa."
+      },
+      "JediArchives": {
+        "description": "JediArchives es un sitio en React para fans de Star Wars que explora personajes usando la API de SWAPI, con una interfaz fluida gracias a Chakra UI."
+      },
+      "OogHub": {
+        "description": "OogHub es una app en React que ofrece citas aleatorias inspiradas por el Maestro Oogway, permitiendo a los usuarios guardar citas y aprender sobre sus autores."
+      },
+      "BlackJack": {
+        "description": "Blackjack es una aplicación en C# que usa Windows Forms y Entity Framework Core, que permite jugar al clásico juego de cartas con persistencia de datos en SQL Server."
+      },
+      "ScreenScore": {
+        "description": "ScreenScore es una app de gestión de películas en React que permite a los usuarios agregar, eliminar y organizar películas con un diseño adaptativo."
+      }
+    },
+    "words": [
+      {
+        "text1": "Mi "
+      },
+      {
+        "text2": "Portafolio "
+      },
+      {
+        "text3": "Digital."
+      }
+    ]
+  },
+  "contact": {
+    "displaytext": {
+      "header": "Información de Contacto",
+      "Desc": "Si tienes alguna pregunta o deseas ponerte en contacto, ¡no dudes en contactarme!"
+    }
   }
 }

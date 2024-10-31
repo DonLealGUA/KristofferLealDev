@@ -256,6 +256,26 @@ body {
     } 
 }
 
+@media (min-width: 995px) and (max-width: 1070px) {
+    .leftimage {
+        max-width: 60%; 
+        border-radius: 8px;
+        max-height: 80%; 
+        margin-bottom: 30px; 
+        z-index: 2;
+    }
+
+    .ButtonContainer{
+        width: 200%;
+        min-width: 160px;
+    }
+
+    .resume-left-content{
+        margin-right: -10%;
+    }
+
+    
+}
 
 @media (max-width: 995px) {
 
@@ -319,7 +339,7 @@ body {
     }
     
     .ButtonContainer {
-        margin-top: 8px;             
+        width: 400px;          
     }
 
 
@@ -340,7 +360,7 @@ body {
     @media (max-width: 425px) {
         .intro {
             width: 380px; 
-            margin-left: -40px;
+            margin-left: -60px;
         }
 
 
@@ -348,6 +368,11 @@ body {
             width: 400px;
             margin-left: -10%;
             padding: 0;
+        }
+
+        .experience-card{
+            width: 250px;
+            height: 200px;
         }
     }
 

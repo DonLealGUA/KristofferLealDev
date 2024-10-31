@@ -11,7 +11,6 @@ import { useTranslation } from 'react-i18next';
 
 
 const Resume = () => {
-
   const { t } = useTranslation();
 
   

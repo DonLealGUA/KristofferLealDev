@@ -3,7 +3,7 @@ import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next'; // Import the translation hook
 import './ui/CSS/Navbar.css';
 
-const Navbar = ({ setCurrentPage }) => {
+const Navbar = ({ setCurrentPage, currentPage }) => {
   const { i18n } = useTranslation(); // Access i18next functions
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -40,11 +40,11 @@ const Navbar = ({ setCurrentPage }) => {
               <button
                 onClick={() => handlePageChange(page)}
                 className={`relative transition-all duration-300 ${
-                  currentLanguage === page ? 'font-bold text-gray-300' : 'hover:text-gray-300'
+                  currentPage === page ? 'font-bold text-gray-300' : 'hover:text-gray-300'
                 }`}
               >
                 {page.charAt(0).toUpperCase() + page.slice(1).replace('_', ' ')}
-                {currentLanguage === page && (
+                {currentPage === page && (
                   <span className="gradientline absolute block w-full h-1 bg-gradient-to-r from-purple-500 to-blue-500 -bottom-1 rounded-lg"></span>
                 )}
               </button>
@@ -53,7 +53,7 @@ const Navbar = ({ setCurrentPage }) => {
         </ul>
         
         {/* Language Selector Dropdown */}
-        <div className="relative">
+        <div className=" languagediv relative">
           <button
             onClick={() => setDropdownOpen((prev) => !prev)}
             className="languagebutton flex items-center bg-black px-4 py-2 rounded hover:bg-gray-700 focus:outline-none"
@@ -103,7 +103,7 @@ const Navbar = ({ setCurrentPage }) => {
               key={page}
               onClick={() => handlePageChange(page)}
               className={`block w-full text-right px-4 py-2 text-2xl transition-all duration-300 ${
-                currentLanguage === page ? 'font-bold text-gray-300' : 'hover:text-gray-300'
+                currentPage === page ? 'font-bold text-gray-300' : 'hover:text-gray-300'
               }`}
             >
               {page.charAt(0).toUpperCase() + page.slice(1).replace('_', ' ')}
