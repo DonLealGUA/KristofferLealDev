@@ -17,8 +17,8 @@ function App() {
         return <Home setCurrentPage={setCurrentPage} />; 
       case 'about':
         return <Aboutme />;
-      case 'resume':
-        return <Resume />;
+        case 'cv':
+          return <Resume />;
       case 'portfolio':
         return <Portfolio />;
       case 'contact':
