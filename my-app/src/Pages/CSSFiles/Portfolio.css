@@ -256,7 +256,7 @@ h1 {
 }
 
 /* Small Screens: Phones */
-@media (max-width: 425px) {
+@media (max-width: 430px) {
     
     .Portfolio {
         padding-bottom: 20%; 
