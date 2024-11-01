@@ -85,16 +85,11 @@ h1 {
     }
 }
 
-@media (min-width:  1440px) {
-    .Container {
-        height: 300%;
-    }
-}
 
 @media (max-width: 1440px) {
  
     .Container {
-        height: 400%;
+        height: 500%;
     }
 
     .CardContainer > div {
