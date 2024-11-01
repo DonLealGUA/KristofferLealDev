@@ -1,4 +1,4 @@
-# My Portfolio Website
+# [My Portfolio Website](https://www.kristofferleal.com/)
 
 Welcome to my portfolio website! This project showcases my work, skills, and experiences as a software developer. Built using Vite and React, this site serves as an interactive resume and an introduction to my projects.
 
@@ -8,6 +8,7 @@ Welcome to my portfolio website! This project showcases my work, skills, and exp
 - **UI Components**: Utilizes the [Aeternity UI](https://ui.aceternity.com/) library for a modern and sleek design.
 - **Tailwind CSS**: Implemented Tailwind CSS for easy styling and customization, allowing for rapid design iterations.
 - **Dynamic Content**: The website dynamically displays my projects, skills, and experiences, providing an interactive experience for visitors.
+- **Multilingual Support**: A translator feature allows users to switch between Spanish, English, and Swedish, enhancing accessibility for a diverse audience.
 
 ## Tech Stack
 
@@ -37,7 +38,7 @@ To run this project locally, follow these steps:
 
 4. **Start the development server**:
    ```bash
-   pnpm dev
+   pnpm run dev
    ```
 
 5. **Open your browser and visit**: `http://localhost:3000`
