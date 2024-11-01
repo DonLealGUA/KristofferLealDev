@@ -85,10 +85,16 @@ h1 {
     }
 }
 
+@media (min-width:  1440px) {
+    .Container {
+        height: 300%;
+    }
+}
+
 @media (max-width: 1440px) {
  
     .Container {
-        height: 310%;
+        height: 400%;
     }
 
     .CardContainer > div {
@@ -103,7 +109,7 @@ h1 {
     }
 
     .Content{
-        width: 100%;
+        width: 7000px;
         height: 140%;
     }
     
@@ -123,9 +129,16 @@ h1 {
     }
 }
 
+@media (max-width: 1150px) {
+    .Container {
+        height: 220%;
+    }
+}
+
+
 @media (min-width: 900px) and (max-width: 1024px) {
     .Container {
-        height: 356%;
+        height: 376%;
     }
 
     .CardContainer > div {
@@ -148,6 +161,7 @@ h1 {
 }
 
 
+
 /* Medium to Small Screens: Up to 900px */
 @media (max-width: 900px) {
     .CardContainer > div {
@@ -155,20 +169,20 @@ h1 {
         max-width: 100%;
     }
 
+}
+
+@media (min-width: 768px) and (max-width: 900px){
+
     .Container {
-        height: 600%;
+        height: 500%;
     }
 
 }
 
+
 /* Smaller tablets and large phones */
 @media (max-width: 768px) {
-    .Container {
-        width: 100%;
-        flex-direction: column;
-        height: 460%;
 
-    }
     .Sidebarleft, .Sidebarright {
         display: none;
     }
@@ -194,6 +208,16 @@ h1 {
     }
 }
 
+@media (min-width: 640px) and (max-width: 768px) {
+
+    .Container {
+        width: 100%;
+        flex-direction: column;
+        height: 620%;
+
+    }
+}
+
 @media (min-width: 640px) and (max-width: 706px) {
     .CardContainer{
         margin-left: 4%;
@@ -206,7 +230,6 @@ h1 {
     .Portfolio {
         padding-bottom: 20%; 
         width: 100%;
-
     }
     h1 {
         font-size: 2rem;
@@ -238,8 +261,14 @@ h1 {
     .Portfolio {
         padding-bottom: 20%; 
         width: 100%;
+    }
+
+    .Container {
+
+        height: 340%;
 
     }
+
     h1 {
         font-size: 2rem;
     }
@@ -256,11 +285,11 @@ h1 {
     }
 
     .CardContainer{
-        padding-left: 30px;
+        padding-left: 20px;
         padding-right: 20px;
         width: 400px;
         height: auto;
-        margin-left: 0;
+        margin-left: -9%;
     }
     
 }
