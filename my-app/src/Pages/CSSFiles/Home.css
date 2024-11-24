@@ -256,9 +256,22 @@ button:hover {
     margin: 0 auto; 
   }
 
+  .left-content h3{
+    margin-bottom: -5%; 
+  }
+
+  .left-content p{
+    margin-bottom: -20%; 
+  }
+
   .desc {
     font-weight: 0 !important;;  
   }
+
+  .home .desc {
+    margin-top: -8%;
+  }
+
 }
 
 
