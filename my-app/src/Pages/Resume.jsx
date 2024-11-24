@@ -129,9 +129,9 @@ const Resume = () => {
     <h2 className="text-4xl font-semibold mb-10 mt-20">{t('resume.skills.mainSkills.description')}</h2>
     <div className="tech-and-experience-container">
         <div className="experience-card">
-            <h3 className="text-8xl font-bold mb-10">1</h3>
-            <h3 className="text-3xl font-bold">{t('resume.summary.experience.description1')}</h3>
-            <h3 className="text-3xl font-bold">{t('resume.summary.experience.description2')}</h3>
+            <h3 className="onetext text-8xl font-bold mb-10">1</h3>
+            <h4 className="text-3xl font-bold">{t('resume.summary.experience.description1')}</h4>
+            <h4 className="text-3xl font-bold">{t('resume.summary.experience.description2')}</h4>
         </div>
 
         <div className="tech-cards-container">
