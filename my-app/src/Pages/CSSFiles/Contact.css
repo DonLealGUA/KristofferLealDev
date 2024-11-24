@@ -83,4 +83,8 @@ textarea {
         max-width: 150%;
         font-size: 0.8rem;
     }
+
+    .contact-container{
+        margin-top: -50%;
+    }
 }
