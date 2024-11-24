@@ -11,9 +11,8 @@ function Home({ setCurrentPage }) {
     setCurrentPage('about'); 
   };
 
-  // Define the Spanish sentence to test
-  const spanishSentence = t('home.description'); // Ensure this returns the correct Spanish translation
-  const spanishSentenceLength = spanishSentence.length; // Get the length of the Spanish sentence
+  const spanishSentence = t('home.description'); 
+  const spanishSentenceLength = spanishSentence.length; 
 
 
   return (
@@ -27,7 +26,7 @@ function Home({ setCurrentPage }) {
 
           <TextGenerateEffect
           className="desc"
-            words={spanishSentence} // Use the specific Spanish sentence
+            words={spanishSentence} 
             duration={1}
             filter={false}
             fontSize="2xl"
