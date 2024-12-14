@@ -12,6 +12,19 @@ const Portfolio = () => {
 
   const projects = [
     {
+      title: "MixItRight",
+      description: t('portfolio.projects.HomeQuest.description'),
+      link: "https://github.com/DonLealGUA/Mixitright",
+      imgURL: "/assets/Portfolio/MixItRight.jpg",
+      weblink: "https://mixitright.vercel.app/", 
+  },
+    {
+      title: " Cocktail-Vault-API",
+      description: t('portfolio.projects.HomeQuest.description'),
+      link: "https://github.com/DonLealGUA/Cocktail-Vault-API",
+      imgURL: "/assets/Portfolio/Cocktail-Vault-API.png",
+  },
+    {
         title: "HomeQuest",
         description: t('portfolio.projects.HomeQuest.description'),
         link: "https://github.com/harnesko/PuzzleQuest",
@@ -64,9 +77,9 @@ const Portfolio = () => {
   ];
 
   return (
-    <div className="Portfolio relative"> {/* Add relative positioning */}
+    <div className="Portfolio relative">
       <div className="Container">
-        <div className="Sidebarleft">{/* Left Sidebar Content */}</div>
+        <div className="Sidebarleft"></div>
         <div className="Content">
           <div className="Header">
             <div className="portfolio-header mb-8">
@@ -92,7 +105,7 @@ const Portfolio = () => {
             ))}
           </div>
         </div>
-        <div className="Sidebarright">{/* Right Sidebar Content */}</div>
+        <div className="Sidebarright"></div>
       </div>
       <BackgroundBeams />
     </div>

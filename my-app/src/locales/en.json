@@ -92,6 +92,12 @@
       "text1": " Explore a Selection of Innovative Projects and Creative Solutions."
     },
     "projects": {
+      "MixItRight": {
+        "description": "MixItRight is a simple web application that allows users to search and explore cocktail recipes by ingredients and spirit types. It provides detailed instructions, ingredient lists, and drink information to help you create the perfect cocktail."
+      },
+      "Cocktail-Vault-API": {
+        "description": "A RESTful API built with Spring Boot providing a rich collection of cocktail recipes, ingredients, and preparation details for mixology apps and enthusiasts."
+      },
       "HomeQuest": {
         "description": "HomeQuest is a pixel art RPG for all ages, featuring quests and exploration. Developed in Java without a game engine, it emphasizes creativity and accessibility with environmental sounds, character movement, and interactive NPCs. Players solve puzzles to unlock new areas, all while enjoying a smooth gameplay loop on Windows."
       },

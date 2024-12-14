@@ -91,6 +91,13 @@
     "text1": "Explora una selección de proyectos innovadores y soluciones creativas."
   },
     "projects": {
+      "MixItRight": {
+    "description": "MixItRight es una aplicación web sencilla que permite a los usuarios buscar y explorar recetas de cócteles según los ingredientes y tipos de bebidas alcohólicas. Ofrece instrucciones detalladas, listas de ingredientes e información de las bebidas para ayudarte a crear el cóctel perfecto."
+},
+"Cocktail-Vault-API": {
+    "description": "Una API RESTful construida con Spring Boot que proporciona una rica colección de recetas de cócteles, ingredientes y detalles de preparación para aplicaciones de mixología y entusiastas."
+},
+
       "HomeQuest": {
         "description": "HomeQuest es un RPG de arte en píxeles para todas las edades, con misiones y exploración. Desarrollado en Java sin motor de juego, destaca por su creatividad y accesibilidad, con sonidos ambientales y NPCs interactivos."
       },
